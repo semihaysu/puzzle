@@ -10,11 +10,22 @@ using System.Windows.Forms;
 
 namespace puzzle
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
+
+        public Image image { get; set; }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            pictureBox1.Image = image;
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+          
+
+        }
+
     }
 }
