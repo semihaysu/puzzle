@@ -11,6 +11,10 @@ namespace puzzle
     internal class Codes
     {
 
+        public static string ad; 
+
+
+
 
 
         public string dosyaEnYuksekSkorOkuma(string yol)
