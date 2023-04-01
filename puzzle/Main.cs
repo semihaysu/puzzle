@@ -23,7 +23,7 @@ namespace puzzle
         {
             pictureBox1.Image = image;
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-          
+          label1.Text=Codes.ad.ToString();
 
         }
 
