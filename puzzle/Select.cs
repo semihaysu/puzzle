@@ -79,5 +79,16 @@ namespace puzzle
         {
 
         }
+
+        private void buttonDosya_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dosya = new OpenFileDialog();
+            dosya.Filter = "Resim Dosyası |*.jpg;*.nef;*.png| Video|*.avi| Tüm Dosyalar |*.*";
+            dosya.Title = "www.yazilimkodlama.com";
+            dosya.ShowDialog();
+            string DosyaYolu = dosya.FileName;
+            pictureBox9.ImageLocation = DosyaYolu;
+            pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
     }
 }

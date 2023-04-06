@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -13,9 +14,9 @@ namespace puzzle
 
         public static string ad;
 
-        public static int puan=0;
+        public  static  int puan=0;
 
-
+        public static int hamle=0;
 
         public string dosyaEnYuksekSkorOkuma(string yol)
         {
@@ -71,39 +72,32 @@ namespace puzzle
             return puan;
         }
 
-        LinkedList<int> konum = new LinkedList<int>();
-        public void ListeEkle()
+        public int hamleyaz()
         {
-
-           
-            konum.AddFirst(0);
-            for(int i=1; i<16; i++)
-            {
-                konum.AddLast(i);
-            }
-         
-
+            return hamle/2;   
         }
 
-        public bool Kontrol(int i)
-        {
+       
+
+        //public bool Kontrol(int i,int  a)
+        //{
 
 
-            LinkedListNode<int> node = konum.Find(i);
-            if(node== null) {
-                return false;
+        //    LinkedListNode<int> node = konum.Find(i);
+        //    if(node== null) {
+        //        return false;
 
-            }
-            else if (node.Value == i)
-            {
-                return true;
-            }
-            else return false;
+        //    }
+        //    else if (node.Value == a)
+        //    {
+        //        return true;
+        //    }
+        //    else return false;
 
 
           
-        }
-       
+        //}
+
        
 
     }
