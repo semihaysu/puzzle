@@ -42,6 +42,7 @@
             this.textBoxAd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.buttonDosya = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -128,15 +129,15 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(318, 414);
+            this.textBox1.Location = new System.Drawing.Point(86, 418);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(266, 38);
+            this.textBox1.Size = new System.Drawing.Size(303, 38);
             this.textBox1.TabIndex = 8;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Location = new System.Drawing.Point(663, 388);
+            this.pictureBox9.Location = new System.Drawing.Point(421, 385);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(100, 97);
             this.pictureBox9.TabIndex = 9;
@@ -166,7 +167,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(240, 417);
+            this.label2.Location = new System.Drawing.Point(8, 421);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(72, 31);
             this.label2.TabIndex = 12;
@@ -182,11 +183,23 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Oyuncu Adı";
             // 
+            // buttonDosya
+            // 
+            this.buttonDosya.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.buttonDosya.Location = new System.Drawing.Point(546, 410);
+            this.buttonDosya.Name = "buttonDosya";
+            this.buttonDosya.Size = new System.Drawing.Size(175, 46);
+            this.buttonDosya.TabIndex = 14;
+            this.buttonDosya.Text = "Resim Seç";
+            this.buttonDosya.UseVisualStyleBackColor = true;
+            this.buttonDosya.Click += new System.EventHandler(this.buttonDosya_Click);
+            // 
             // Select
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 494);
+            this.Controls.Add(this.buttonDosya);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxAd);
@@ -234,5 +247,6 @@
         private System.Windows.Forms.TextBox textBoxAd;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button buttonDosya;
     }
 }
