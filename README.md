@@ -3,6 +3,15 @@ Explanation in English :
 
 # PROJECT TITLE: SQUARE PUZZLE GAME
 
+Within the scope of the Square Puzzle game, it is aimed to use the linked list with c# language and to actively use the github platform.
+While making the puzzle game, a Windows Form application was created using Visual Studio 2022.
+After the application was created, the necessary competencies were given to the friends working in the project by establishing a connection with Gihub.
+The application consists of 3 forms. Start; Select ,Main
+The Start Form asks for previous scores and player name.
+In the Select Form, it is possible to select a picture from the existing pictures of the player from the file or by entering the URL.
+There is Puzzle in the Main Form. There are Player Name, Number of Moves, Score and Shuffle And View Buttons.
+At the end of the game, the name of the player, the number of moves and the score are written in the enyuksekskor.txt file.
+
 What programs are required to run the project:
 
 The project was developed in Windows Form Application in Visual Studio 2022 Version using C# language.
@@ -36,6 +45,16 @@ Steps to Run the Project:
 Explanation in Turkish :
 
 # PROJE BAŞLIĞI:KARE PUZZLE OYUNU
+
+Kare Puzzle oyunu kapsamında c# dili ile bağlı liste kullanımı ve github platformunun aktif olarak kullanımı hedeflenmiştir.
+Puzzle oyunu yapılırken Visual Studio 2022 kullanılarak Windows Form uygulaması oluşturulmuştur.
+Uygulama oluşturulduktan sonra Gihub ile bağlantısı kurularak projede görevli arkadaşlara gerekli yetkinlikler verilmiştir.
+Uygulama 3 Adet Formdan oluşmaktadır. Start; Select ,Main 
+Start Formunda daha önceki skorlar ve oyuncu adı istenmektedir.
+Select Formunda Oyuncunun var olan resimlerden Dosyadan yada Url Girerek Resim seçme işlemi yapılabilir.
+Main Formunda Puzzle bulunuyor. Oyuncunun Adı, Hamle sayısı, Puanı ve Karıştırma Ve Görüntüle Butonları bulunmaktadır.
+Oyun Sonunda oyuncunun Adı,Hamle Sayısı ve Puanı  enyuksekskor.txt Dosyaysına yazılmaktadır.
+
 
 Projeyi çalıştırmak için hangi programlar gerekli:
 
