@@ -17,21 +17,41 @@ namespace puzzle
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Select select = new Select();
-            select.Show();
+            if(oyuncuAdText.Text == "")
+            {
+                MessageBox.Show("Lütfen İsim Giriniz.");
+            }
+            else
+            { Select select = new Select();
+                 select.Show();
+                Start Start = new Start();
+                Start.Hide();
+            }
         }
-
         private void Start_Load(object sender, EventArgs e)
         {
             Codes codes = new Codes();
-            
-            richTextBox1.Text = codes.dosyaEnYuksekSkorOkuma("enyuksekskor.txt");
+            skorTabloText.ReadOnly = true;
+            skorTabloText.Text = codes.dosyaEnYuksekSkorOkuma("enyuksekskor.txt");
         }
+        private void skorTabloText_TextChanged(object sender, EventArgs e)
+        {
 
+        }
+        private void oyuncuAdText_TextChanged(object sender, EventArgs e)
+        {
+            Codes.ad = oyuncuAdText.Text;
+        }
+        private void oyuncuAdLabel_Click(object sender, EventArgs e)
+        {
 
+        }
+        private void skorTabloLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

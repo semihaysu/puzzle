@@ -20,6 +20,8 @@ namespace puzzle
        
         private void Select_Load(object sender, EventArgs e)
         {
+            
+
             pictureBox1.Image = Image.FromFile(@"..\..\img\1.png");
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
 
@@ -54,19 +56,9 @@ namespace puzzle
             
             PictureBox picture = ( PictureBox) sender;
             main.image = picture.Image;
-
-
-            if (textBoxAd.Text == "")
-            {
-                MessageBox.Show("Lütfen İsim Giriniz.");
-            }
-            else
-            {
-                Codes.ad= textBoxAd.Text;
-                main.Show();
-
-            }
-
+            
+            //Codes.ad= textBoxAd.Text;
+            main.Show();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -90,5 +82,7 @@ namespace puzzle
             pictureBox9.ImageLocation = DosyaYolu;
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
+        
     }
 }
