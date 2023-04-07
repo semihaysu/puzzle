@@ -28,23 +28,23 @@ namespace puzzle
             pictureBox2.Image = Image.FromFile(@"..\..\img\2.jpg");
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            //pictureBox3.Image = Image.FromFile(@"..\..\img\3.jpg");
-            //pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.Image = Image.FromFile(@"..\..\img\3.jpg");
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            //pictureBox4.Image = Image.FromFile(@"..\..\img\4.jpg");
-            //pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.Image = Image.FromFile(@"..\..\img\4.jpg");
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            //pictureBox5.Image = Image.FromFile(@"..\..\img\5.jpg");
-            //pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.Image = Image.FromFile(@"..\..\img\5.jpg");
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            //pictureBox6.Image = Image.FromFile(@"..\..\img\6.jpg");
-            //pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.Image = Image.FromFile(@"..\..\img\6.jpg");
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            //pictureBox7.Image = Image.FromFile(@"..\..\img\7.jpg");
-            //pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.Image = Image.FromFile(@"..\..\img\7.jpg");
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            //pictureBox8.Image = Image.FromFile(@"..\..\img\8.jpg");
-            //pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.Image = Image.FromFile(@"..\..\img\8.jpg");
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
 
          
 
