@@ -54,7 +54,9 @@ Start Formunda daha önceki skorlar ve oyuncu adı istenmektedir.
 Select Formunda Oyuncunun var olan resimlerden Dosyadan yada Url Girerek Resim seçme işlemi yapılabilir.
 Main Formunda Puzzle bulunuyor. Oyuncunun Adı, Hamle sayısı, Puanı ve Karıştırma Ve Görüntüle Butonları bulunmaktadır.
 Oyun Sonunda oyuncunun Adı,Hamle Sayısı ve Puanı  enyuksekskor.txt Dosyaysına yazılmaktadır.
-
+![image](https://user-images.githubusercontent.com/85456378/230621363-a4bd4e15-eea3-4125-9808-6a21dd60d65c.png)
+![image](https://user-images.githubusercontent.com/85456378/230621479-ce548f85-08d7-4a55-80ab-877ec5d6dae9.png)
+![image](https://user-images.githubusercontent.com/85456378/230621512-d89a5d29-d3af-4ab1-beba-1160527b096c.png)
 
 Projeyi çalıştırmak için hangi programlar gerekli:
 
@@ -85,5 +87,6 @@ Projeyi Çalıştırmak için Uygulanacak Adımlar:
 11) Oyun bittiğinde kullanıcı oyun bitti uyarı mesajı alır ve formu kapatır. 
 
 12)Kullanıcının oyundan elde ettiği skor ise debug dosyasının içindeki enyüksekskor.txt dosyasında yazdırılır.
+
 
 
