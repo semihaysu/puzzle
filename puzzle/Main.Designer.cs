@@ -54,6 +54,7 @@
             this.buttonKarıstır = new System.Windows.Forms.Button();
             this.buttonGöster = new System.Windows.Forms.Button();
             this.labelGöster = new System.Windows.Forms.Label();
+            this.bıtırButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -394,11 +395,22 @@
             this.labelGöster.Size = new System.Drawing.Size(0, 29);
             this.labelGöster.TabIndex = 25;
             // 
+            // bıtırButton
+            // 
+            this.bıtırButton.Location = new System.Drawing.Point(690, 343);
+            this.bıtırButton.Name = "bıtırButton";
+            this.bıtırButton.Size = new System.Drawing.Size(97, 48);
+            this.bıtırButton.TabIndex = 26;
+            this.bıtırButton.Text = "BİTİR";
+            this.bıtırButton.UseVisualStyleBackColor = true;
+            this.bıtırButton.Click += new System.EventHandler(this.bıtırButton_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(859, 472);
+            this.Controls.Add(this.bıtırButton);
             this.Controls.Add(this.labelGöster);
             this.Controls.Add(this.buttonGöster);
             this.Controls.Add(this.buttonKarıstır);
@@ -462,5 +474,6 @@
         private System.Windows.Forms.Button buttonKarıstır;
         private System.Windows.Forms.Button buttonGöster;
         private System.Windows.Forms.Label labelGöster;
+        private System.Windows.Forms.Button bıtırButton;
     }
 }

@@ -39,9 +39,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBoxAd = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.buttonDosya = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -148,20 +146,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(57, 26);
+            this.label1.Location = new System.Drawing.Point(45, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(695, 25);
             this.label1.TabIndex = 10;
             this.label1.Text = "BAŞLAMAK İÇİN BİR RESİM SEÇİNİZ YADA RESİM URL YAZINIZ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // textBoxAd
-            // 
-            this.textBoxAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBoxAd.Location = new System.Drawing.Point(397, 67);
-            this.textBoxAd.Name = "textBoxAd";
-            this.textBoxAd.Size = new System.Drawing.Size(182, 40);
-            this.textBoxAd.TabIndex = 11;
             // 
             // label2
             // 
@@ -172,16 +162,6 @@
             this.label2.Size = new System.Drawing.Size(72, 31);
             this.label2.TabIndex = 12;
             this.label2.Text = "URL";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(200, 67);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 33);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Oyuncu Adı";
             // 
             // buttonDosya
             // 
@@ -200,9 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 494);
             this.Controls.Add(this.buttonDosya);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBoxAd);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.textBox1);
@@ -244,9 +222,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBoxAd;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonDosya;
     }
 }

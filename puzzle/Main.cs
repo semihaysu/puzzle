@@ -233,7 +233,7 @@ namespace puzzle
 
             }
 
-            for (int f = 0; f < 16; f++)
+            /*for (int f = 0; f < 16; f++)
             {
                 if (btn1.BackgroundImage == imgarray[dizi[f]])
                 {
@@ -241,7 +241,7 @@ namespace puzzle
                     Kontrol(imgarray[dizi[f]],f);
                     
                 }
-            }
+           }*/
             
 
             if (Codes.hamle % 2 == 0)
@@ -293,6 +293,12 @@ namespace puzzle
             return false;
 
 
+        }
+
+        private void bıtırButton_Click(object sender, EventArgs e)
+        {
+            codes.DosyayaYazma("enyuksekskor.txt", labelAd.Text, labelPuan.Text, labelHamle.Text);
+           
         }
     }
 
